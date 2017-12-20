@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.header-img{
+    height: 150%;
+    margin-top: -20%;
+}
+#navigator{
+    background-color:#1F0C07;
+    margin-bottom: 0;
+    border:none;
+    display:none;
+}
+.nav-active{
+    color:#AF9A04!important;
+}
+.navbar-default .navbar-nav li:hover a{
+    color:#AF9A04;
+}
+.navbar{
+    border-radius:0;
+}
+
+
+#container-first-carousel{
+    width: 100%;
+    height:520px;
+}
+#mask{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background-color:rgba(0,0,0,0.4);
+}
+/*导航*/
+.nav>li>a:hover {
+    background-color: transparent;
+}
+#mask>.nav-pills>li{
+    float:right;
+}
+#mask-hr{
+    width: 0.1%;
+    height: 1.5rem;
+    background-color: #eeeeee;
+    margin-top:1.2rem;
+}
+#mask>.nav-pills>li>a{
+    color:#AF9A04;
+}
+/*导航结束*/
+/*logo*/
+#follow-us{
+    font-size: 80%;
+    color: #eeeeee;
+}
+.mask-logo-hr{
+    border-right:1px solid rgba(255,255,255,0.8);
+}
+.mask-margin-top{
+    margin-top: 5%;
+    margin-bottom:2%;
+}
+.mask-sm-margin-top{
+    margin-top: 2%;
+    position: relative;
+    height: 10%;
+}
+
+.mask-text{
+    font-size: 300%;
+    font-weight: 700;
+    color: #eeeeee;
+    text-align: center;
+}
+.mask-sm-text{
+    font-size: 90%;
+    text-align: center;
+    color: #eeeeee;
+}
+.mask-img{
+    width: 48%;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+.mask-sm-margin-top-center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.text-one{
+    padding-top: 5%;
+}
+.text-one>p{
+    color: #666666;
+}
+.btn-img{
+    display:inline-block;
+    max-width: 35%;
+}
+.btn-p{
+    display:inline-block;
+}
+.btn-block{
+    max-width: 45%;
+}
+.last-one{
+    height: 14rem;
+}
+.row-btn-download{
+    max-width: 35%;
+}
+.img-circle{
+    max-width: 10%;
+}
+
+
+
+#second-carousel{
+    background: url(../image/review_bg.jpg) no-repeat;
+    background-size: cover;
+}
+#second-carousel .item{
+    height:400px;
+    background-color:rgba(0,0,0,0.4);
+}
+.carousel-indicators>.active{
+    background-color:#D19A04;
+    width:10px;
+    height:10px;
+}
+.carousel-indicators li{
+    border:none;
+    background-color:rgba(255,255,255,0.4);
+}
+.carousel-caption{
+    bottom:100px;
+}
+
+
+
+
+.app-screenshots{
+    padding:5% 0;
+}
+.app-screenshots h1{
+    margin-bottom: 2%;
+}
+/*三列轮播*/
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+@media only screen and (max-width: 500px) {
+    .onebyone-carosel .active.left { left: -100%; }
+    .onebyone-carosel .active.right { left: 100%; }
+}
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+.three-col-carousel{
+    border:6px solid #cccccc;
+    border-radius: 6px;
+}
+.well{
+    border:none;
+    background: none;
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+}
+.well .left{
+    margin-left: -3%;
+}
+.well .right{
+    margin-right: -3%;
+}
+.carousel-control.left,
+.carousel-control.right{
+    background: none;
+}
+/*三列轮播结束*/
+
+/*四列轮播开始*/
+.four-col-owl-carousel-container{
+    background-color: #1F0C07;
+    padding:20px 0;
+}
+.four-col-owl-carousel-container .item{
+    height:50px;
+}
+.four-col-owl-carousel-container .item img{
+    height: 100%;
+    background-color: #fff;
+}
+/*四列轮播结束*/
+
+/*background轮播*/
+#testimonials{
+    background: url(../image/review_bg.jpg) no-repeat;
+    background-size: cover;
+}
+#testimonials>.row{
+    height:420px;
+    background-color:rgba(0,0,0,0.4);
+}
+#testimonials .item{
+    color: #fff;
+    padding:18% 0 2%;
+}
+/*background轮播结束*/
+
+/*app-goole-img开始*/
+.app-goole-img{
+    width: 100%;
+    margin-top: 2%;
+}
+.iphone4{
+    width: 100%;
+    margin-top: 8%;
+}
+/*app-goole-img结束*/
+.gray{
+    background-color: #f6f6f6;
+}
+.under-line{
+    border-bottom:1px solid #C2B9B6;
+}
+.under-line h5{
+    font-weight: 600;
+    color: #626262;
+    height: 100%;
+    margin:12px 0 8px 0!important;
+}
+.under-line p{
+    margin:12px 0 8px 0!important;
+    line-height: 1.1;
+}
+
+.btn-contact-us{
+    max-width: 120px;
+    border:1px solid #D19A04;
+    margin-top: 3%;
+}
+.btn-contact-us:hover{
+    background-color:#D19A04;
+}
+.btn-contact-us:hover .btn-contact-us-p{
+    color: #fff;
+}
+.btn-contact-us-p{
+    margin: 0;
+    color:#D19A04;
+}
+/*尾部*/
+footer{
+    background: #1F0C07;
+    padding: 5% 0;
+}
+footer .center-block{
+    margin-bottom: 3%;
+}
+.foot-icon{
+    display:inline;
+    text-align: center;
+}
+.foot-icon img{
+    display:inline-block;
+}
+.footer-text{
+    color:#fff;
+    font-size: 2rem;
+    margin-top: 4%;
+}
+
+

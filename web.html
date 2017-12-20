@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>dine</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--owl.carousel-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!--vegas-->
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <!--animate-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--main-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+     <!--解决IE对HTML5支持-->
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <!--解决IE8对CSS3 Media Query 支持-->
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+    <!--unslider-->
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+<header>
+    <!--导航-->
+    <nav id="navigator" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="img-responsive header-img" src="image/logo_yellow_large.png">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#howToDine">HOW TO DINE</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#insideDine">INSIDE DINE</a></li>
+                    <li><a href="#download">DOWNLOAD</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--导航结束-->
+</header>
+
+<div id="container">
+    <div id="home">
+        <!--轮播图-->
+        <div id="container-first-carousel">
+            <!--遮罩层-->
+            <div id="mask" class="container-fluid">
+                <!--中英文互换-->
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">English</a></li>
+                    <li id="mask-hr"></li>
+                    <li role="presentation"><a href="#">中文</a></li>
+                </ul>
+                <!--中英文互换结束-->
+                <!--logo-->
+                <div class="row mask-margin-top">
+                    <div class="col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 col-xs-6  mask-logo-hr">
+                        <img src="image/logo_white2.png" style="width:80px;height:54px;float:right" alt="logo">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                        <p id="follow-us">FOLLOW US</p>
+                        <span><img style="width:20px;height:20px" src="image/activity.png"></span>
+                        <span><img style="width:20px;height:24px" src="image/facebook_icon.png"></span>
+                    </div>
+                </div>
+                <!--logo结束-->
+                <div class="row mask-margin-top mask-text">
+                    <div class="col-md-12">More Dates,Not Swipes.</div>
+                </div>
+                <div class="row mask-margin-top mask-sm-text">
+                    <div class="col-md-12">Get Dine Dating App Free Now!</div>
+                </div>
+                <!--app-goole-img开始-->
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
+                                <img class="img-responsive app-goole-img" style="display: inline-block" src="image/app_store_btn.png">
+                            </div>
+                            <div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3">
+                                <img class="img-responsive app-goole-img" style="display: inline-block" src="image/play_store_btn.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--app-goole-img结束-->
+                <div class="row mask-sm-margin-top mask-sm-text">
+                    <div class="col-md-12">AVAILABLE IN USA, CANADA.</div>
+                </div>
+            </div>
+            <!--遮罩层结束-->
+        </div>
+        <!--轮播图结束-->
+    </div>
+
+    <!--三行介绍-->
+    <div class="container-fluid">
+        <div id="about">
+            <div id="about-first" class="row" style="padding-top: 5%;background-color: #f6f6f6;">
+                <div class="col-md-3 col-md-offset-2 col-sm-12 col-sm-offset-0 about-first-img">
+                    <img class="img-responsive center-block" src="image/iphone1.png" alt="iphone1">
+                </div>
+                <div class="col-md-5 col-md-offset-0 text-one col-sm-10 col-sm-offset-1 about-first-text">
+                    <h2 class="text-center">Skip The Small Talk. Meet For a First Date.</h2>
+                    <p class="text-center">Dine is a dating app that isn't about superficial love at first sight, but<!--
+                        -->an opportunity to experience someone's company and a new culinary adventure.<!--
+                        --> Aren't we all tired of the endless swiping left to right see that we only matched<!--
+                        --> with someone we didn't like in the first place? Dine introduces to high quality<!--
+                        --> potential matches Daily. Simply request them to Dine and if they accept, skip the<!--
+                        --> small talk and meet up for a first date over the best food and drinks around!</p>
+                </div>
+            </div>
+
+            <div id="about-second" class="row" style="padding-top: 5%;">
+                <div class="col-md-5 col-md-offset-2 col-sm-10 col-sm-offset-1 text-one about-second-text">
+                    <h2 class="text-center">Lock in a Date!</h2>
+                    <p class="text-center">Once a match is made on Dine, the date and location has already been decided<!--
+                            --> and accepted on. The next, use “Date Lock” a feature that allows you<!--
+                            --> to well…lock in a date. Suggest 3-5 days you are available and your match<!--
+                            --> will agree to meet you on one of those dates. Final step, meet up!</p>
+                    <div style="margin-bottom: 2%;">
+                        <div class="btn btn-warning center-block row-btn-download">
+                            <img class="img-responsive btn-img" src="image/xiazai.png" alt="download">
+                            <p class="btn-p">DOWNLOAD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 about-second-img">
+                    <img class="img-responsive center-block" src="image/iphone2.png" alt="iphone2">
+                </div>
+            </div>
+        </div>
+
+        <div id="howToDine">
+            <div class="row explain-last-one" style="padding-top: 5%;background-color: #f6f6f6;">
+                <div class="col-md-3 col-md-offset-1 col-sm-12 how-to-dine-img">
+                    <img class="img-responsive center-block" src="image/iphone3.png" alt="iphone3">
+                </div>
+                <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 how-to-dine-text">
+                    <h2 class="text-center">How To Use Dine</h2>
+                    <p class="text-center">Dine is very simple to use. A perfect dating app for busy people that delivers high value.</p>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="last-one">
+                                <img class="img-responsive center-block" src="image/how1.png" alt="how1">
+                                <h4 class="text-center">1. NEW PEOPLE DAILY</h4>
+                                <p class="text-center">We will introduce you to new people and their favorite food spots every day!</p>
+                            </div>
+                            <div class="last-one">
+                                <img class="img-responsive center-block" src="image/how3.png" alt="how3">
+                                <h4 class="text-center">3. DINE REQUEST ACCEPTED</h4>
+                                <p class="text-center">If your Dine request is accepted, start a conversation!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="last-one">
+                                <img class="img-responsive center-block" src="image/how2.png" alt="how2">
+                                <h4 class="text-center">2. SENDING A REQUEST</h4>
+                                <p class="text-center">See someone you like? Ask them to Dine!</p>
+                            </div>
+                            <div class="last-one">
+                                <img class="img-responsive center-block" src="image/how4.png" alt="how4">
+                                <h4 class="text-center">4. FIRST DATE!</h4>
+                                <p class="text-center">Make sure to confirm with your match the time and day you will meet!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--三行介绍结束-->
+
+    <!--background轮播图-->
+    <div id="testimonials" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="large-4 columns">
+                    <div class="owl-carousel owl-theme background-owl-carousel">
+                        <div class="item text-center">
+                            <p>Being consistently charming in a text conversation, especially with a<!--
+                                   -->complete stranger, is not necessarily a perfect indicator of whether<!--
+                                   --> you'll be compatible. That's why Dine tries to get you in the same room.</p><br>
+                            <img class="img-circle center-block" src="image/nathan.jpg" alt="..."><br>
+                            <h6>Nathan McAlone</h6>
+                            <span>Business Insider</span>
+                        </div>
+                        <div class="item text-center">
+                            <p>Having similar taste in food is a major plus (and obviously the cornerstone<!--
+                                  --> of any healthy relationship?). It's perfect for foodies looking for a partner<!--
+                                  --> with similar taste buds.</p><br>
+                            <img class="img-circle center-block" src="image/refinery29.jpg" alt="..."><br>
+                            <h6>Bianca Heyward</h6>
+                            <span>Refinery29</span>
+                        </div>
+                        <div class="item text-center">
+                            <p>Apps like Tinder have taken every spark of magic and excitement out of dating.<!--
+                                --> In contrast, Dine is focused on giving you both a night of culinary culture,<!--
+                                --> and good company too, setting you up with people that choose similar restaurants<!--
+                                --> in your area.</p><br>
+                            <img class="img-circle center-block" src="image/TheIndieGirl.jpg" alt="..."><br>
+                            <h6>Olivia Fleming</h6>
+                            <span>THE INDIE GIRL</span>
+                        </div>
+                        <div class="item text-center">
+                            <p>Dine is all about skipping the "funny business" and hitting restaurants,<!--
+                                -->bars and cafés with the people you like.</p><br>
+                            <img class="img-circle center-block" src="image/phonearena%20(1).png" alt="..."><br>
+                            <h6>Luis D</h6>
+                            <span>phoneArena.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--background轮播图结束-->
+
+
+
+    <div id="insideDine">
+        <!--App Screenshots开始-->
+        <div class="app-screenshots">
+            <h1 class="text-center">App Screenshots</h1>
+            <p class="text-center" style="color:#8F8F8F;">Many people are waiting to get out and Dine. Get started today.</p>
+        </div>
+        <!--App Screenshots结束-->
+
+        <!-- 三列轮播 -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <div class="large-5 columns">
+                        <div class="owl-carousel owl-theme three-col-owl-carousel">
+                            <div class="item">
+                                <a href="#"><img class="three-col-carousel" src="image/screen01.jpg" alt="slide01"></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img class="three-col-carousel" src="image/screen02.jpg" alt="slide02"></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img class="three-col-carousel" src="image/screen03.jpg" alt="slide03"></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img class="three-col-carousel" src="image/screen04.jpg" alt="slide04"></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img class="three-col-carousel" src="image/screen05.jpg" alt="slide05"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 三列轮播结束 -->
+    </div>
+
+    <div id="download">
+        <!--Download the App开始-->
+        <div class="container-fluid gray">
+            <!--text-->
+            <div class="app-screenshots download-text">
+                <h1 class="text-center">Download the App</h1>
+                <p class="text-center" style="color:#8F8F8F;">Forget all the back and forth texting and just go on a date already!</p>
+            </div>
+            <div class="download-image">
+                <!--app-goole-img-->
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3 download-left-img">
+                                <img class="img-responsive app-goole-img" style="display: inline-block" src="image/app_store_btn.png">
+                            </div>
+                            <div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-3 download-right-img">
+                                <img class="img-responsive app-goole-img" style="display: inline-block" src="image/play_store_btn.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--iphone4-img-->
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 download-img">
+                        <img class="iphone4" src="image/iphone4.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--Download the App结束-->
+
+        <!--四列轮播开始-->
+        <div class="container-fluid four-col-owl-carousel-container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <div class="large-6 columns">
+                        <div class="owl-carousel owl-theme four-col-owl-carousel">
+                            <div class="item" style="background: url(image/refinery29.png) no-repeat center center #FFFFFF;background-size: 80% 50%;">
+                                <!--<img class="img-responsive" src="image/refinery29.png" alt="slide01">-->
+                            </div>
+                            <div class="item" style="background: url(image/TheIndieGirl.png) no-repeat center center #FFFFFF;background-size: 80% 50%;">
+                                <!--<img class="img-responsive" src="image/TheIndieGirl.png" alt="slide02">-->
+                            </div>
+                            <div class="item" style="background: url(image/VentureBeat.png) no-repeat center center #FFFFFF;background-size: 80% 50%;">
+                                <!--<img class="img-responsive" src="image/VentureBeat.png" alt="slide03">-->
+                            </div>
+                            <div class="item" style="background: url(image/SpoiledNYC.png) no-repeat center center #FFFFFF;background-size: 45% 80%;">
+                                <!--<img class="img-responsive" src="image/SpoiledNYC.png" alt="slide04">-->
+                            </div>
+                            <div class="item" style="background: url(image/BusinessInsider.png) no-repeat center center #FFFFFF;background-size: 85% 40%;">
+                                <!--<img class="img-responsive" src="image/BusinessInsider.png" alt="slide05">-->
+                            </div>
+                            <div class="item" style="background: url(image/phonearena.png) no-repeat center center #FFFFFF;background-size: 45% 80%;">
+                                <!--<img class="img-responsive" src="image/phonearena.png" alt="slide06">-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--四列轮播结束-->
+
+        <div class="container-fluid gray">
+            <!--About Us-->
+            <div class="row about-us">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                    <h1>About Us</h1>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                    <p style="color:#8F8F8F;">We are a start-up that was created in July 2015. Our main business currently is the<!--
+                       -->development and operation of Dine, and our aim to address certain core issues with<!--
+                       --> existing online dating services and become the most popular Dating App worldwide.<!--
+                       --> Our company name Mrk & Co comes from our goal to leave our mark on the world.</p>
+                </div>
+            </div>
+            <!--About Us end-->
+
+            <!--About the team-->
+            <div class="row about-the-team">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                    <h1>About the team</h1>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                    <p style="color:#8F8F8F;">The company is headed by former members of DeNA, <!--
+                            -->the Japanese mobile games giant. The co-founders developed many social games <!--
+                            -->over multiple years starting with one of the most successful social games in <!--
+                            -->Japan “Kaito Royale” and many other hit titles. Titles that saw North American<!--
+                            --> success such as “Blood Brothers” and an NFL IP title followed. With Dine,<!--
+                            --> we will maximize the benefit of our live operations knowledge and skills honed<!--
+                            -->  by our experience in social games, optimizing our KPIs and improving customer satisfaction.</p>
+                </div>
+            </div>
+            <!--About the team end-->
+
+            <div class="explain" style="padding-top: 3%;">
+                <div class="row explain-first">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="row under-line">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
+                                <h5>Comapny</h5>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-8">
+                                <p style="color:#8F8F8F;">Mrk & Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row explain-second">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="row under-line">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
+                                <h5>Founded</h5>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-8">
+                                <p style="color:#8F8F8F;">July 17 2015</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row explain-third">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="row under-line">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
+                                <h5>Co-Founder & CEO</h5>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-8">
+                                <p style="color:#8F8F8F;">Keisuke Kamijo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row explain-fourth">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="row under-line">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
+                                <h5>Co-Founder &#38; CTO</h5>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-8">
+                                <p style="color:#8F8F8F;">Takashi Morioka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row explain-fifth">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="row under-line">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
+                                <h5>Headquarters</h5>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-8">
+                                <p style="color:#8F8F8F;">Dai-Go Kanou Bldg 5F, 3-26-16, Shibuya, Shibuya-ku, Tokyo, Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row explain-sixth">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="row under-line">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
+                                <h5>Tokyo Office</h5>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-8">
+                                <p style="color:#8F8F8F;">Dogenzaka Sky Bldg 8F, 28-1, Maruyama-cho, Shibuya-ku, Tokyo, Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="row under-line">
+                            <div class="col-md-4 col-sm-3 col-xs-4">
+                                <h5>Contact</h5>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-8">
+                                <p style="color:#8F8F8F;">support@dinewith.co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--button-->
+            <div style="margin-bottom: 2%;">
+                <div class="btn center-block btn-contact-us">
+                    <p class="btn-contact-us-p">Contact Us</p>
+                </div>
+            </div>
+            <!--button end-->
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <img class="img-responsive center-block" src="image/logo_yellow_large.png">
+    <div class="foot-icon">
+        <div>
+            <img class="img-responsive" src="image/activity.png">
+            <img class="img-responsive" src="image/facebook_icon.png">
+        </div>
+    </div>
+
+    <p class="text-center footer-text">&#169; 2016 Mrk & Co. All Rights Reserved</p>
+
+</footer>
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--swiper-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/js/swiper.min.js"></script>
+<!--owl.carousel-->
+<script src="js/owl.carousel.min.js"></script>
+<!--vegas-->
+<script src="js/vegas.min.js"></script>
+<!--main-->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
